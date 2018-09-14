@@ -1,0 +1,187 @@
+@import "compass/css3";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.info {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 5.20% 6.25% 38.55% 38.55% 6.25% 5.20%;
+    grid-template-rows: 9.62% 7.7% 24% auto 11% 13%;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+.mini_title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: black;
+    font-size: 1.7vw;
+    
+    z-index: 99;
+    cursor: pointer;
+    
+    -webkit-transition: color 1s; /* Safari */
+    transition: color 1s;
+}
+
+.mini_title:hover{
+    color: gray;
+}
+
+.back_container {
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    width: 5.20%;
+    text-align: center;
+}
+
+.back {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.5vw;
+    transform: rotate(270deg);
+    margin-top: 45vh;
+    
+    z-index: 99;
+    cursor: pointer;
+    
+   -webkit-transition: color 1s; /* Safari */
+    transition: color 1s;
+}
+
+.back:hover {
+    color: gray;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: black;
+    font-size: 5vw;
+    line-height: 1.1;
+    
+    grid-column: 3/4;
+    grid-row: 3/4;
+    place-self: start;
+}
+
+.description {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.5vw;
+    
+    grid-column: 3/4;
+    grid-row: 4/5;
+    padding-top: 2%;
+}
+
+#be_link {
+    color: black;
+    font-weight: 700;
+    -webkit-transition: color 1s; /* Safari */
+    transition: color 1s;
+}
+
+#be_link:hover {
+    color: gray;
+}
+
+.email {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    
+    justify-self: start;
+    align-self: center;
+    
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.8vw;
+    color: black;
+    
+    -webkit-transition: color 1s; /* Safari */
+    transition: color 1s;
+}
+
+.email:hover {
+    color: gray;
+}
+
+.me {
+    grid-column: 4/5;
+    grid-row: 3/5;
+    place-self: center;
+    
+    object-fit: cover;
+    max-height: 100%;
+    width: auto;
+}
+
+#behance {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    
+    color: black;
+    font-size: 2vw;
+    
+    align-self: center;
+    justify-self: end;
+    padding-right: 3%;
+    
+    -webkit-transition: color 1s; /* Safari */
+    transition: color 1s;
+}
+
+#behance:hover {
+    color: #1769ff;
+}
+
+#instagram {
+    grid-column: 4/5;
+    grid-row: 5/6;
+    
+    color: black;
+    font-size: 2vw;
+    
+    align-self: center;
+    justify-self: start;
+    padding-left: 3%;
+    
+    -webkit-transition: color 1s; /* Safari */
+    transition: color 1s;
+}
+
+#instagram:hover {
+    color: #833ab4;
+}
+
+body {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from { opacity:0 } 
+    to { opacity:1 }
+}
+
+@keyframes animatebottom { 
+    from{ opacity:0 } 
+    to{ opacity:1 }
+}

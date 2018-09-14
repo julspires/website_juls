@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ciclo de Conversas Design e Multimédia</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Design, Graphic Design, Portfolio, Freelancer">
+    <meta name="author" content="Juliana Pires">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="images/icon_J.png">
+    
+    <link rel="stylesheet" href="style_explore.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="jquery.scrollify.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <section class="scroller">
+        <div class="header">
+            <a href="index.html" class="mini_title">Juliana Pires</a>
+        </div>
+        
+        <div class="back_container">
+            <p class="back" id="back">back</p>
+        </div>
+        
+        <div class="next_container">
+            <a class="next" href="explore_proj2.html">Next Project</a>
+        </div>
+            
+        <div class="proj_info">
+            <p class="proj_title">Ciclo de Conversas <br/>Design e Multimédia</p>
+            <p class="description">Visual identity for the 2017 edition of “Ciclo de Conversas Design e Multimédia”.
+            This year’s University of Coimbra cultural week theme was “Who are we?”. Taking this into consideration, 
+            we created the identity based on Carl Sagan’s Pioneer Plate, more specifically, the map written in binary.
+            This plate is an attempt to explain who we are as inhabitants of planet Earth, so we used the binary map as our concept.</p>
+            
+            <h2 class="collaboration">project created in collaboration with: <br/> <a href="https://www.behance.net/barb_am" target="_blank">Bárbara Almeida </a></h2>
+            
+            <h2 class="proj_subtitle">academic project <br/>2017</h2>
+            
+            <!---<a class="next" href="explore_proj2.html">Next Project</a>--->
+
+            
+        </div>
+    </section>        
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj1_img1" class="img_proj" src="images/proj1/CCDM_PRETO_2.jpg" alt="Ciclo de Conversas_Black">
+        </div>
+    </section>
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj1_img2" class="img_proj" src="images/proj1/CCDM_BRANCO.jpg" alt="Ciclo de Conversas_White">
+        </div>
+    </section>
+
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj1_img3" class="img_proj" src="images/proj1/FotoPerfilPreta.gif" alt="Ciclo de Conversas_Gif">
+            <img id="proj1_img4" class="img_proj" src="images/proj1/FotoPerfilBranca.gif" alt="Ciclo de Conversas_Gif">
+        </div>
+    </section>
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj1_img5" class="img_proj" src="images/proj1/FotoCapaPreta.jpg" alt="Ciclo de Conversas_Black">
+        </div>
+    </section>
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj1_img6" class="img_proj" src="images/proj1/FotoCapaBranca.jpg" alt="Ciclo de Conversas_White">
+        </div>
+    </section>
+    
+    <script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+    
+    <script type="text/javascript" src="script_scroll.js"></script>
+    
+    <script>
+        $("#back").click(function(event) {
+            event.preventDefault();
+            history.back(1);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Magazine Collages</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Design, Graphic Design, Portfolio, Freelancer">
+    <meta name="author" content="Juliana Pires">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="images/icon_J.png">
+    
+    <link rel="stylesheet" href="style_explore.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="jquery.scrollify.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <section class="scroller">
+        <div class="header">
+            <a href="index.html" class="mini_title">Juliana Pires</a>
+        </div>
+        
+        <div class="back_container">
+            <p class="back" id="back">back</p>
+        </div>
+        
+        <div class="next_container">
+            <a class="next" href="explore_proj1.html">First Project</a>
+        </div>
+            
+        <div class="proj_info">
+            <p class="proj_title">Magazine <br/>Collages</p>
+            <p class="description">
+                As a hobby, I like to look through magazines and cut elements that I find interesting and after put them together to create different characters. <br/>
+                Sometimes, I cut everything manually and scan it and then do the montage digitally. <br/>
+                Other times, I do everything manually and just add a background digitally.
+            </p>
+            
+            
+            <h2 class="proj_subtitle">hobby <br/>2018</h2>
+            
+        </div>
+    </section>        
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj1_img1" class="img_proj" src="images/proj5/Audrey_Cam_smaller.jpg" alt="Audrey Cam">
+        </div>
+    </section>
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj1_img2" class="img_proj" src="images/proj5/How_To_Plant_A_Light.jpg" alt="How To Plant A Light">
+        </div>
+    </section>
+
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj3_img3" class="img_proj" src="images/proj5/Man_Roses.jpg" alt="Man Roses">
+        </div>
+    </section>
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj3_img4" class="img_proj" src="images/proj5/Space_Is_In_My_Mind.jpg" alt="Space Is In My Mind">
+        </div>
+    </section>
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj3_img5" class="img_proj" src="images/proj5/Telephone_Girl.jpg" alt="Telephone Girl">
+        </div>
+    </section>
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj3_img5" class="img_proj" src="images/proj5/Thinking_Face-Storm_Totem.jpg" alt="Storm Totem">
+        </div>
+    </section>
+    
+    <section class="scroller">
+        <div class="proj_info">
+            <img id="proj3_img5" class="img_proj" src="images/proj5/Zebra_Girl.jpg" alt="Zebra Girl">
+        </div>
+    </section>
+    
+    <script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+    
+    <script type="text/javascript" src="script_scroll.js"></script>
+    
+    <script>
+        $("#back").click(function(event) {
+            event.preventDefault();
+            history.back(1);
+        });
+    </script>
+</body>
+</html>
