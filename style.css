@@ -299,6 +299,9 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
     
     .proj_title {
         grid-column: 3/7;
