@@ -323,3 +323,45 @@ body {
   from{opacity:0 } 
   to{ opacity:1 }
 }
+
+@media only screen and (max-width: 400px) {
+    .mini_title {
+        font-size: 3vw;
+        padding-top: 5%;
+    }
+    
+    .proj_title {
+        font-size: 8vw;
+        grid-column: 3/5;
+    }
+    
+    .description {
+        font-size: 3vw;
+    }
+    
+    .collaboration {
+        font-size: 2vw;
+    }
+    
+    .proj_subtitle {
+        font-size: 2.5vw;
+    }
+    
+    .next {
+        font-size: 4.5vw;
+    }
+    
+    .back {
+        font-size: 3vw;
+    }
+    
+    .next_container {
+        width: 40%;
+    }
+    
+    .img_proj {
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+    }
+}

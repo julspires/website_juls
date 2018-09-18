@@ -185,3 +185,47 @@ body {
     from{ opacity:0 } 
     to{ opacity:1 }
 }
+
+
+@media only screen and (max-width: 400px) {
+    .title {
+        grid-row: 2/3;
+        justify-self: center;
+        font-size: 7vw;
+    }
+    
+    .me {
+        grid-row: 3/4;
+        grid-column: 3/5;
+        place-self: center;
+        
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .description {
+        grid-row: 4/5;
+        grid-column: 3/5;
+        
+        align-self: center;
+        font-size: 3.5vw;
+    }
+    
+    .email {
+        font-size: 3vw;
+    }
+    
+    #behance, #instagram {
+        font-size: 4.5vw;
+    }
+    
+    .back {
+        font-size: 3vw;
+    }
+    
+    .mini_title {
+        font-size: 3vw;
+        padding-top: 5%;
+    }
+}

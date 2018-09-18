@@ -298,3 +298,69 @@ body {
   to{ bottom:0; opacity:1 }
 }
 
+@media only screen and (max-width: 400px) {
+    
+    .proj_title {
+        grid-column: 3/7;
+        grid-row: 3/4;
+        
+        font-size: 7vw;
+    }
+    
+    .img_proj {
+        grid-column: 3/7;
+        grid-row: 3/5;
+        
+        place-self: center;
+    
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .proj_subtitle {
+        grid-row: 4/5;
+        grid-column: 3/4;
+        justify-self: start;
+        font-size: 2.5vw;
+        
+        writing-mode: horizontal-tb;
+    }
+    
+    .mini_title {
+        font-size: 3vw;
+        padding-top: 5%;
+    }
+    
+    .line {
+        height: 4%;
+        place-self: start;
+        margin-top: 18%;
+    }
+    
+    .explore {
+        font-size: 3vw;
+        place-self: start;
+    }
+    
+    .number {
+        width: 100%;
+    }
+    
+    #title {
+        font-size: 8vw;
+    }
+    
+    #sub_title {
+        font-size: 3vw;
+    }
+    
+    #about {
+        font-size: 3vw;
+    }
+    
+    #arrow_down {
+        width: 25%;
+    }
+}
+
