@@ -362,5 +362,9 @@ body {
     #arrow_down {
         width: 25%;
     }
+    
+    #home {
+        height: 100vh;
+    }
 }
 
